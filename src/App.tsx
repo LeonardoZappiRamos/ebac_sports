@@ -43,9 +43,6 @@ function App() {
           produtos={produtos}
           favoritos={favoritos}
           favoritar={favoritar}
-          adicionarAoCarrinho={() => {
-            console.log('Add carrinho')
-          }}
         />
       </div>
     </Provider>
